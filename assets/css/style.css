@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+
+/*-----------------------------------------Colors*/
+.navbar-brand, .navbar-nav, .navbar-default {
+    background-color: #F4E3D4;
+    color: #654db3;
+}
+
+.navbar-nav a, .navbar-nav i {
+    color:#654db3;
+}
+
+.container-fluid{
+    background-color: #F4E3D4;
+}
+
+.banner {
+background-color:#f4e3d4;
+}
+
+.banner h3,p {
+    color:black;  
+}
+
+.banner button p {
+    background-color:white;
+}
+
+/* ----------------------------------------Fonts */
+.navbar-brand, .navbar-nav,  .navbar-default {
+   font-family: 'Dancing Script', cursive;
+   font-weight:700;
+   letter-spacing: 2px;
+}
+
+.banner {
+}
+
+
+
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.navbar-brand {
+    text-align: center;
+    padding: 0;
+    font-size: 26px;
+    display: block; 
+}
+
+ .navbar-nav, .navbar-default{
+    padding:5px;
+    font-size: 16px;
+ }
+
+
+.navbar-nav a{
+    width: 100%;
+    text-decoration: none;
+    display: block; 
+}
+
+.navbar-nav ul, .navbar-nav ul li{
+    padding:5px;
+    font-size: 20px;
+}
+
+.navbar-nav a i, .navbar-brand a{
+    padding-top: 22px;
+    padding-right: 6px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+/*-----------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-nav li, .navbar-header {
+    margin:10px 0 10px 0;
+    padding: 0 10px 0 10px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+/* ----------------------------------------Banner */
+.banner {
+    background: url("../images/banner1.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 360px;
+    width:100%;
+    margin-left: auto;
+    border:15px solid white;
+    border-radius:25px;
+    text-align: center;
+}
+
+.banner button {
+    border:15px solid white;
+    border-radius:15px;
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------Footer */
+
+footer img {
+    height:45px;
+}
+
+/* ----------------------------------------Contact Form */
+
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width:992px) {
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+}

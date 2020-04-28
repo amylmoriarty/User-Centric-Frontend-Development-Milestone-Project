@@ -1,37 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# NI Bllet School
+Stream One Project: User Centric Frontend Development - Code Institute 
 
-Welcome amylmoriarty,
+This is my website for a ballet school. The website tells the user about the school, how to get in contact via a contact form and details in the footer, 
+allows the user to view upcoming class schedules and register for the classes.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+## Demo
+A live demo can be found at 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## UX
+My goal in the design was to make information accessible on the site, while striving for a minimalist design.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies
+1. HTML
+2. CSS
+3. Bootstrap
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+## Testing
+This site was continiously tested manually with each new piece of functionality in browser dev tools for compatibility and responsiveness.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment 
+The live site is deployed on GitHub pages. It uses the master branch. It updates each time there is a new push to the repository.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content
+All content was written by me.
 
---------
+### Media 
+All photos were taken from https://www.pexels.com/, a stock image library.
 
-Happy coding!
+### Acknowledgements
+
+The progress circles from the skills section are modeled after the following Stack Overflow: https://stackoverflow.com/questions/14222138/css-progress-circle. They were significantly modified to fit the styling, sizing, and progress for each skill.
+
+**This is for educational use.** 
+
+##images
+ballerina background from ["https://www.desktopbackground.org/wallpaper/ballerina-backgrounds-bing-images-533874"]
