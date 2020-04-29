@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
 
 /*-----------------------------------------Colors*/
+
 .navbar-brand, .navbar-nav, .navbar-default {
-    background-color: #F4E3D4;
+    background-color: #f4e3d4;
     color: #654db3;
 }
 
@@ -11,21 +12,10 @@
 }
 
 .container-fluid{
-    background-color: #F4E3D4;
+    background-color: #f4e3d4;
 
 }
 
-.banner {
-    background-color:#f4e3d4;
-}
-
-.banner h3,p {
-    color:black;  
-}
-
-.banner button p {
-    background-color:white;
-}
 
 /* ----------------------------------------Fonts */
 .navbar-brand, .navbar-nav,  .navbar-default {
@@ -34,8 +24,6 @@
    letter-spacing: 2px;
 }
 
-.banner {
-}
 
 /* ----------------------------------------Navbar */
 
@@ -87,29 +75,47 @@ h3,
 h4,
 h5 {
     margin: 0;
+    padding-bottom:5px;
+}
+
+.container-fluid{
+    text-align: center;
+    justify-content:center;
+
 }
 
 
 /*-----------------------------------------Heading*/
 
 
-
 /* ----------------------------------------Banner */
-.banner {
-    background: url("../images/banner1.jpg");
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
     width:100%;
     margin-left: auto;
-    border:15px solid white;
+    border:15px solid #A387FF;
     border-radius:25px;
     text-align: center;
+    
 }
 
-.banner button {
-    border:15px solid white;
+.banner-text{
+  text-align: center;
+  justify-content:center;
+  color: white;
+}
+
+.banner-text p {
+    font-size:18px;
+}
+
+.banner-button {
+    background-color:#A387FF;
+    color:white;
     border-radius:15px;
     text-align: center;
 }
@@ -118,9 +124,11 @@ h5 {
 
 /* ----------------------------------------Footer */
 
+
 footer img {
     height:45px;
 }
+
 
 /* ----------------------------------------Contact Form */
 

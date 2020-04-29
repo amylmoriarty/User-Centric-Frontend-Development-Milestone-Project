@@ -1,4 +1,4 @@
-# NI Bllet School
+# NI Ballet School
 Stream One Project: User Centric Frontend Development - Code Institute 
 
 This is my website for a ballet school. The website tells the user about the school, how to get in contact via a contact form and details in the footer, 
@@ -40,7 +40,7 @@ All photos were taken from https://www.pexels.com/, a stock image library.
 
 ### Acknowledgements
 
-The progress circles from the skills section are modeled after the following Stack Overflow: https://stackoverflow.com/questions/14222138/css-progress-circle. They were significantly modified to fit the styling, sizing, and progress for each skill.
+The jumbotron uses a background image which leans on the hero image tutorial here: https://www.w3schools.com/howto/howto_css_hero_image.asp it was significantly edited to suit the style and layout of the site.
 
 **This is for educational use.** 
 
