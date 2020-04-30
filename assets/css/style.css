@@ -2,6 +2,7 @@
 
 /*-----------------------------------------Colors*/
 
+
 .navbar-brand, .navbar-nav, .navbar-default {
     background-color: #f4e3d4;
     color: #654db3;
@@ -50,8 +51,6 @@
     justify-content:center;
 }
 
-
-
 /* ----------------------------------------Icons */
 
 .navicons {  
@@ -59,10 +58,23 @@
     padding: 5px;
 }
 
+/* ----------------------------------------Nav element states */
 
+:focus {
+    outline:none;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 
 /* ----------------------------------------Special paddings/margins/text */
+
+body {
+    height:100vh;
+    margin: 0;
+}
 
 header {
     margin: 0;
@@ -85,7 +97,12 @@ h5 {
 }
 
 
-/*-----------------------------------------Heading*/
+/*-----------------------------------------Container*/
+
+.main {
+    height:100%;
+    width:100%;
+}
 
 
 /* ----------------------------------------Banner */
@@ -123,7 +140,6 @@ h5 {
 
 
 /* ----------------------------------------Footer */
-
 
 footer img {
     height:45px;
