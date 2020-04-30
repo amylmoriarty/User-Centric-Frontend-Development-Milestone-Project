@@ -87,7 +87,6 @@ h3,
 h4,
 h5 {
     margin: 0;
-    padding-bottom:5px;
 }
 
 .container-fluid{
@@ -101,7 +100,7 @@ h5 {
 
 .main {
     height:100%;
-    width:100%;
+    
 }
 
 
@@ -134,6 +133,7 @@ h5 {
     background-color:#A387FF;
     color:white;
     border-radius:15px;
+    border-color: #A387FF;
     text-align: center;
 }
 
@@ -155,7 +155,18 @@ footer a {
 
 
 /* ----------------------------------------Contact Form */
+.col-12 {
+    
+}
 
+
+.contact li {
+    font-size:18px;
+}
+
+.contact a {
+    color:#654DB3;
+}
 
 /* ----------------------------------------Media Queries */
 
