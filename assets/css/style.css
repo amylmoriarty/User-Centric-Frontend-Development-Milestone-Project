@@ -129,6 +129,14 @@ footer img {
     height:45px;
 }
 
+footer li {
+    font-size:18px;
+}
+
+footer a {
+    color:#654DB3;
+}
+
 
 /* ----------------------------------------Contact Form */
 
