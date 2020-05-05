@@ -137,8 +137,11 @@ h5 {
     text-align: center;
 }
 
+/* ----------------------------------------Special Banner */
 
-
+.special-banner {
+    background-color:#A387FF;
+}
 /* ----------------------------------------Footer */
 
 footer img {
