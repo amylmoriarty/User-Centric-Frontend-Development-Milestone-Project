@@ -16,11 +16,11 @@ My goal in the design was to make information accessible on the site, while stri
 I made the decision to add a contact page and have the contact details in the footer for ease of access. 
 Hopefully this would encourage somebody to pick up the phone for a quick enquiry while also allowing them to send an email for a more detailed message or get in contact after opening hours.
 
-As a potential student I want information on classes for my age group, schedule.html provides this.
+As a potential student I want information on classes for my age group.
 
-As a parent of a potential student I want information about the teachers credentials and relevant vetting, about.html provides this.
+As a parent of a potential student I want information about the teachers credentials and relevant vetting.
 
-As an examiner I want to be able to contact the school with their students exam results, contact.html provides this.
+As an examiner I want to be able to contact the school with their students exam results.
 
 
 WIREFRAMES HERE
@@ -51,7 +51,7 @@ In the future, I would wire up the contact forms to be able to send an email to 
 
 1. HTML
 2. CSS
-3. Bootstrap
+3. Bootstrap [https://getbootstrap.com/]
 
 ## Testing
 
@@ -74,3 +74,5 @@ All photos were obtained from https://www.pexels.com/, a stock image library.
 ### Acknowledgements
 
 The jumbotron uses a background image which leans on the hero image tutorial here: https://www.w3schools.com/howto/howto_css_hero_image.asp it was significantly edited to suit the style and layout of the site.
+
+A special thanks to my mentor Jonathan for his excellent guidance throughout this project. 
