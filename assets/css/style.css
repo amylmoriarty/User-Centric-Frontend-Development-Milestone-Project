@@ -70,6 +70,8 @@ body {
 
 a:hover {
     text-decoration: none;
+    color:#0D9DBF;
+
 }
 
 
@@ -178,7 +180,7 @@ footer {
     max-width:75rem;
     border-top: 0.15rem solid #73022C;
     text-align:center;
-    justify-content:last baseline;
+    justify-self:baseline;
 }
 
 footer img {
@@ -196,9 +198,38 @@ footer a {
 
 /* ----------------------------------------Contact Form */
 
-.contact li {
-    font-size:1.2rem;
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/contact-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 15.625rem;
+    max-width:75rem;
+    min-height: 22.5rem;
+    max-height:37.5rem;
+    text-align: center;
+    justify-content:center;
+    margin: 0rem auto;
+    font-size:0;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    
 }
+
+.contact h3 {
+    color:#fff;
+}
+
+
+.contact-button {
+    margin:0.25rem;
+}
+
+.form-control {
+    margin:0.25rem;
+}
+
+
 
 /* ----------------------------------------Media Queries */
 
