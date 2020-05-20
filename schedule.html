@@ -25,37 +25,120 @@
         </nav>
     </header>
 
-    <section class="container-fluid special-banner">
+    <section class="container-fluid main schedule">
         <div class="row">
             <div class="col">
-                <h3>Latest Update</h3>
-                <p>Due to the ongoing crisis we are offering classes via our Instagram. More info here </p>
-                <p>We are currently enroling for September 2020 classes. Sign up below </p>
+                <div class="banner-text">
+                    <h3>Currently Enroling!</h3>
+                    <p>We are now accepting students for September 2020 classes.</p>
+                    <p>Places are strictly limited and will be allocated in the order of enrolment. Sign up using the form below </p>
+                    
+                </div>
             </div>
         </div>
     </section>
 
     <section class="container-fluid main">
+        
         <div class="row">
             <div class="col">
                 <h3>Instagram Live Class Schedule</h3>
                 <p>Tuesdays, Thursdays & Saturdays</p>
-                <p>11.30am</p>
+            </div>
+        </div>
+
+        <div class="row about">
+            <div class="col-sm-4">
+                <h3>Tuesday</h3>
+                <h5>Ballet Grade 1 </h5>
+                <p> 11.30am </p>
+
+                <h5>Ballet Grade 2 </h5>
+                <p> 12.00am </p>
+
+                <h5>Ballet Grade 3 </h5>
+                <p> 12.30am </p>
+
+                <h5>Ballet Grade 4 </h5>
+                <p> 14.30pm </p>
+
+                <h5>Ballet Grade 5 </h5>
+                <p> 15.00pm </p>
+
+
+            </div>
+            
+            <div class="col-sm-4">
+                <h3>Thursday</h3>
+                <h5>Ballet Grade 6 </h5>
+                <p> 11.30am </p>
+
+                <h5>Ballet Grade 7 </h5>
+                <p> 12.00am </p>
+
+                <h5>Ballet Grade 8 </h5>
+                <p> 12.30am </p>
+
+                <h5>Ballet Grade 9 </h5>
+                <p> 14.30pm </p>
+
+                <h5>Ballet Grade 10 </h5>
+                <p> 15.00pm </p>
+            </div>
+
+            <div class="col-sm-4">
+                
+            <h3>Saturday</h3>
+                <h5>Jazz Grade 1 </h5>
+                <p> 11.30am </p>
+
+                <h5>Jazz Grade 2 </h5>
+                <p> 12.00am </p>
+
+                <h5>Jazz Grade 3 </h5>
+                <p> 12.30am </p>
+
+                <h5>Tap Grade 1 </h5>
+                <p> 14.30pm </p>
+
+                <h5>Tap Grade 2 </h5>
+                <p> 15.00pm </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <h3>Get in touch using the form below</h3>
+                <h3>Registration Form</h3>
                 <form>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                    <input type="text" name="studentname" id="sname" class="form-control" placeholder="Student Name"
                         required />
+                    <input type="text" name="parentname" id="pname" class="form-control" placeholder="Parent Name"
+                        required />
+                    <select id="class" name="class" class="form-control">
+                        <option selected>Ballet</option>
+                        <option>Jazz</option>
+                        <option>Tap</option>
+                    </select>
+                    <select id="grade" name="grade" class="form-control">
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{11}"class="form-control" 
+                    placeholder="Contact Number" required />
                     <input type="email" name="email" id="emailaddress" class="form-control" 
                         placeholder="Email" required />
-                    <textarea rows="5" name="message" id="message" class="form-control" 
-                        placeholder="Your Message" required ></textarea>
+                    <textarea rows="2" name="message" id="additionalinfo" class="form-control" 
+                        placeholder="Additional Info" ></textarea>
                     <div class="form-row">
                         <div class="col">
-                        <button type="submit" class="btn btn-secondary banner-button">Send Email</button>
+                        <button type="submit" class="btn btn-secondary banner-button">Register</button>
                     </div>
                 </form>
             </div>

@@ -22,6 +22,8 @@ As a parent of a potential student I want information about the teachers credent
 
 As an examiner I want to be able to contact the school with their students exam results.
 
+As a staff member from the school I want to increase engagement and following on our social media profiles.
+
 
 WIREFRAMES HERE
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -36,12 +38,13 @@ I have used a bootstrap jumbotron with a background image and a link to the acco
 About.html - I wanted to showcase the teachers experience here, I have also included the relevant dance qualification logos in the footer as this school is based in Northern Ireland and works with students of all backgrounds, 
 I wanted this to be immediately obvious to the users.
 
-Contact.html Users can get in touch with the school via the contact form or click the phone and email links below the form or in the footer.
+Contact.html Users can get in touch with the school via the contact form or in the footer.
 
 Schedule.html Users can register for upcoming classes via email, browse the timetables for the classes and are reminded they can participate in the live classes on social media.
 
 
 ### Features Left to Implement
+
 I would like to roll out the banner across all pages which can be edited/updated to notify users of changes as the situation progresses. 
 
 
@@ -56,6 +59,8 @@ In the future, I would wire up the contact forms to be able to send an email to 
 ## Testing
 
 This site was continiously tested manually with each new piece of functionality in browser dev tools for compatibility and responsiveness.
+
+
 
 
 ## Deployment
@@ -75,4 +80,4 @@ All photos were obtained from https://www.pexels.com/, a stock image library.
 
 The jumbotron uses a background image which leans on the hero image tutorial here: https://www.w3schools.com/howto/howto_css_hero_image.asp it was significantly edited to suit the style and layout of the site.
 
-A special thanks to my mentor Jonathan for his excellent guidance throughout this project. 
+A special thanks to my mentor Jonathan for his excellent guidance and support throughout this project. 

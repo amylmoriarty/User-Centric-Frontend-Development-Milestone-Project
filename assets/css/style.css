@@ -79,6 +79,9 @@ a:hover {
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .row {
@@ -110,6 +113,7 @@ p {
     text-align: center;
     justify-content:center;
     padding:0;
+    
 }
 
 .col-sm-4 {
@@ -121,6 +125,7 @@ p {
 .about {
     max-width:75rem;
     margin-bottom:2rem;
+    
 }
 
 
@@ -135,7 +140,7 @@ p {
 }
 
 
-/* ----------------------------------------Banner */
+/* ---------------------------------------- Home Page Banner */
 .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
     background-position: center;
@@ -170,17 +175,13 @@ p {
     text-align: center;
 }
 
-/* ----------------------------------------Special Banner */
-
-.special-banner {
-    background-color:#0D9DBF;
-}
 /* ----------------------------------------Footer */
 footer {
     max-width:75rem;
     border-top: 0.15rem solid #73022C;
     text-align:center;
-    justify-self:baseline;
+    margin-top: auto;
+    
 }
 
 footer img {
@@ -211,8 +212,8 @@ footer a {
     justify-content:center;
     margin: 0rem auto;
     font-size:0;
-    padding-top:2rem;
-    padding-bottom:2rem;
+    border-radius:1.56rem;
+    border:1rem solid #0D9DBF;
     
 }
 
@@ -228,6 +229,38 @@ footer a {
 .form-control {
     margin:0.25rem;
 }
+
+/* ----------------------------------------Schedule */
+
+.schedule {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/schedule-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 15.625rem;
+    max-width:75rem;
+    min-height: 22.5rem;
+    max-height:37.5rem;
+    border:1rem solid #0D9DBF;
+    border-radius:1.56rem;
+    text-align: center;
+    justify-content:center;
+    margin: 0rem auto;
+    font-size:0;
+    
+    
+}
+
+.schedule-text {
+    text-align: center;
+    justify-content:center;
+    color: white;
+}
+
+.schedule-text p {
+    font-size:1rem;
+}
+
 
 
 
