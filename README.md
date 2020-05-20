@@ -63,8 +63,15 @@ In the future, I would wire up the contact forms to be able to send an email to 
 
 This site was continiously tested manually with each new piece of functionality in browser dev tools for compatibility and responsiveness.
 
+I tested each of the navbar links to ensure they direct you to the correct page.
+I tested each of the social media links in the footer to ensure they direct you to the correct site while also opening in a new tab.
+I tested the links in the footer for the contact details to ensure they direct you to your email or phone client.
+I tested each input in the contact form to ensure they werent submmitting unless filled in correctly.
+I tested each of the inputs in the registration form paying particular attention to the phone number input, this will only allow you to submit with an 11 digit number  inputted.
+I tested the navbar in dev tools on multiple browsers to ensure it displayed correctly and was fully responsive.
 
-
+I validated my HTML with https://validator.w3.org/ for each page and recieved no errors.
+I validated my css with https://jigsaw.w3.org/css-validator/validator and recieved no errors.
 
 ## Deployment
 
