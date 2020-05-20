@@ -13,6 +13,9 @@ allows the user to view upcoming class schedules and register for the classes.
 
 My goal in the design was to make information accessible on the site, while striving for a minimalist design.
 
+I specifically chose to use Glidden Pink Ballet Slipper / #f4e3d4 as the main background colour as I felt it suited the theme of the brief.
+I paired this with the red and blue accent colours as I felt they compliment the pink.
+
 I made the decision to add a contact page and have the contact details in the footer for ease of access. 
 Hopefully this would encourage somebody to pick up the phone for a quick enquiry while also allowing them to send an email for a more detailed message or get in contact after opening hours.
 
