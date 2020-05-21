@@ -87,7 +87,6 @@ body {
 .row {
     margin-right:0;
     margin-left:0;
-    margin-bottom:2rem;
 }
 
 header {
@@ -116,38 +115,26 @@ p {
     
 }
 
-.col-sm-4 {
-    justify-content:space-evenly;
-    margin-bottom:2rem;
-    
-}
-
-.about {
-    max-width:75rem;
-    margin-bottom:2rem;
-    
-}
-
-
-/*-----------------------------------------Container*/
+/*-----------------------------------------Container */
                                                                                                                                                                                                                                                                                                                                                                         
 .main {
     justify-content:center;
     text-align: center;
-    max-width:75rem;
+    max-width:56.25rem;
     margin-bottom:2rem;
     padding:0;
+    font-size:0;
 }
 
 
-/* ---------------------------------------- Home Page Banner */
-.jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
+/* ---------------------------------------- Home Page */
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 15.625rem;
-    max-width:75rem;
+    min-width: 12.5rem;
+    max-width: 15.625rem;
     min-height: 22.5rem;
     max-height:37.5rem;
     border:1rem solid #0D9DBF;
@@ -175,10 +162,16 @@ p {
     text-align: center;
 }
 
+.about {
+    max-width:56.25rem;
+    margin-top:3rem;
+    margin-bottom:2rem; 
+}
+
 /* ----------------------------------------Footer */
 footer {
-    max-width:75rem;
-    border-top: 0.15rem solid #73022C;
+    max-width:56.25rem;
+    border-top: 0.15rem solid #0D9DBF;
     text-align:center;
     margin-top: auto;
     
@@ -197,7 +190,7 @@ footer a {
 }
 
 
-/* ----------------------------------------Contact Form */
+/* ----------------------------------------Contact*/
 
 .contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/contact-banner.jpg");
@@ -205,7 +198,7 @@ footer a {
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 15.625rem;
-    max-width:75rem;
+    max-width:37.5rem;
     min-height: 22.5rem;
     max-height:37.5rem;
     text-align: center;
@@ -213,21 +206,15 @@ footer a {
     margin: 0rem auto;
     font-size:0;
     border-radius:1.56rem;
-    border:1rem solid #0D9DBF;
-    
+    border:1rem solid #0D9DBF; 
 }
-
-.contact h3 {
-    color:#fff;
-}
-
 
 .contact-button {
     margin:0.25rem;
 }
 
-.form-control {
-    margin:0.25rem;
+.opening-hours {
+    margin-top:3rem;
 }
 
 /* ----------------------------------------Schedule */
@@ -237,30 +224,46 @@ footer a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 15.625rem;
-    max-width:75rem;
+    min-width: 12.5rem;
+    max-width: 15.625rem;
     min-height: 22.5rem;
     max-height:37.5rem;
-    border:1rem solid #0D9DBF;
-    border-radius:1.56rem;
     text-align: center;
     justify-content:center;
     margin: 0rem auto;
     font-size:0;
-    
-    
+    border-radius:1.56rem;
+    border:1rem solid #0D9DBF;
 }
 
-.schedule-text {
+.schedule-heading {
+    margin-top:3rem;
+}
+
+/* ----------------------------------------Forms */
+
+.form {
     text-align: center;
     justify-content:center;
-    color: white;
 }
 
-.schedule-text p {
-    font-size:1rem;
+.form-control {
+    margin:0.25rem;
+    padding:0.25rem;
+    min-width: 9.375rem;
+    max-width: 15.625rem;
+    display: inline-flex;
+ 
 }
 
+.register {
+    background-color:#0D9DBF;
+}
+
+.jumbotron {
+    margin-right:2rem;
+    margin-left:2rem;
+}
 
 
 
@@ -270,6 +273,27 @@ footer a {
 
 .navbar-nav {
     flex-direction: row;
+}
+
+.home {
+    min-width:37.5rem;
+    max-width:56.25rem;
+}
+
+.contact {
+    min-width:37.5rem;
+    max-width:56.25rem;
+}
+
+.form-control {
+    min-width:22.5rem;
+    max-width:37.5rem;
+    
+}
+
+.schedule {
+    min-width:37.5rem;
+    max-width:56.25rem;
 }
 
 

@@ -16,6 +16,9 @@ My goal in the design was to make information accessible on the site, while stri
 I specifically chose to use Glidden Pink Ballet Slipper / #f4e3d4 as the main background colour as I felt it suited the theme of the brief.
 I paired this with the red and blue accent colours as I felt they compliment the pink.
 
+During this project, following advice from my mentor Jonathan regarding accessibility I changed my measurements from pixels to rem. 
+This will accommomodate more users of the website and makes the overall design more accessible. 
+
 I made the decision to add a contact page and have the contact details in the footer for ease of access. 
 Hopefully this would encourage somebody to pick up the phone for a quick enquiry while also allowing them to send an email for a more detailed message or get in contact after opening hours.
 
@@ -28,8 +31,8 @@ As an examiner I want to be able to contact the school with their students exam 
 As a staff member from the school I want to increase engagement and following on our social media profiles.
 
 
-WIREFRAMES HERE
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The wireframes for each page are available in the wireframe directory here https://github.com/amylmoriarty/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes
+
 
 ## Features
 
@@ -66,7 +69,7 @@ This site was continiously tested manually with each new piece of functionality 
 I tested each of the navbar links to ensure they direct you to the correct page.
 I tested each of the social media links in the footer to ensure they direct you to the correct site while also opening in a new tab.
 I tested the links in the footer for the contact details to ensure they direct you to your email or phone client.
-I tested each input in the contact form to ensure they werent submmitting unless filled in correctly.
+I tested each input in the contact form to ensure they werent submitting unless filled in correctly.
 I tested each of the inputs in the registration form paying particular attention to the phone number input, this will only allow you to submit with an 11 digit number  inputted.
 I tested the navbar in dev tools on multiple browsers to ensure it displayed correctly and was fully responsive.
 
@@ -84,7 +87,15 @@ The live site is deployed on GitHub pages. It uses the master branch. It updates
 All content was written by me.
 
 ### Media
-All photos were obtained from https://www.pexels.com/, a stock image library.
+
+Banner images were obtained from pexels.com and unsplash.com, stock image libraries.
+
+Home page banner  https://www.pexels.com/photo/adorable-little-girl-in-ballet-dress-sitting-on-table-3887537/
+
+Contact page banner https://images.unsplash.com/photo-1525598912003-663126343e1f?ixlib=rb-1.2.1&
+
+Schedule page banner  https://www.pexels.com/photo/black-framed-wayfarer-style-eyeglasses-on-white-surface-917293/ 
+
 
 ### Acknowledgements
 

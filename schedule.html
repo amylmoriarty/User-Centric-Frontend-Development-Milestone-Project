@@ -25,9 +25,12 @@
         </nav>
     </header>
 
-    <section class="container-fluid main schedule">
+    <section class="container-fluid main">
+   
         <div class="row">
-            <div class="col">
+
+            <div class="jumbotron schedule">
+
                 <div class="banner-text">
                     <h3>Currently Enroling!</h3>
                     <p>We are now accepting students for September 2020 classes.</p>
@@ -36,14 +39,10 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="container-fluid main">
-        
+    
         <div class="row">
-            <div class="col">
+            <div class="col schedule-heading">
                 <h3>Instagram Live Class Schedule</h3>
-                <p>Tuesdays, Thursdays & Saturdays</p>
             </div>
         </div>
 
@@ -107,40 +106,44 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h3>Registration Form</h3>
-                <form>
-                    <input type="text" name="studentname" id="sname" class="form-control" placeholder="Student Name"
-                        required />
-                    <input type="text" name="parentname" id="pname" class="form-control" placeholder="Parent Name"
-                        required />
-                    <select id="class" name="class" class="form-control">
-                        <option selected>Ballet</option>
-                        <option>Jazz</option>
-                        <option>Tap</option>
-                    </select>
-                    <select id="grade" name="grade" class="form-control">
-                        <option selected>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                    </select>
-                    <input type="tel" name="phone" id="phone" pattern="[0-9]{11}"class="form-control" 
-                    placeholder="Contact Number" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" 
-                        placeholder="Email" required />
-                    <textarea rows="2" name="message" id="additionalinfo" class="form-control" 
-                        placeholder="Additional Info" ></textarea>
-                    <div class="form-row">
-                        <div class="col">
-                        <button type="submit" class="btn btn-secondary banner-button">Register</button>
+                <div class="row">
+                    <div class="container-fluid main form-width">
+                        <h3>Registration Form</h3>
+                        <form>
+                            <input type="text" name="studentname" id="sname" class="form-control" placeholder="Student Name"
+                                required />
+                            <input type="text" name="parentname" id="pname" class="form-control" placeholder="Parent Name"
+                                required />
+                            <select id="class" name="class" class="form-control">
+                                <option selected>Ballet</option>
+                                <option>Jazz</option>
+                                <option>Tap</option>
+                            </select>
+                            <select id="grade" name="grade" class="form-control">
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{11}" class="form-control" 
+                            placeholder="Contact Number" required />
+                            <input type="email" name="email" id="emailaddress" class="form-control" 
+                                placeholder="Email" required />
+                            <textarea rows="2" name="message" id="additionalinfo" class="form-control" 
+                                placeholder="Additional Info" ></textarea>
+                            <div class="form-row">
+                                <div class="col">
+                                <button type="submit" class="btn btn-secondary banner-button contact-button">Register</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                </form>
             </div>
         </div>
     </section>
