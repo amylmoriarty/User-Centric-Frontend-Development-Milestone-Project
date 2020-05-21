@@ -51,10 +51,9 @@ Schedule.html Users can register for upcoming classes via email, browse the time
 
 ### Features Left to Implement
 
-I would like to roll out the banner across all pages which can be edited/updated to notify users of changes as the situation progresses. 
-
-
 In the future, I would wire up the contact forms to be able to send an email to the school. 
+
+I would also link to different sections of the site via the banners.
 
 ## Technologies Used
 
