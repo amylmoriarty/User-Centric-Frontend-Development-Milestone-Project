@@ -128,13 +128,14 @@ p {
 
 
 /* ---------------------------------------- Home Page */
+
 .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 12.5rem;
-    max-width: 15.625rem;
+    max-width: 22.5rem;
     min-height: 22.5rem;
     max-height:37.5rem;
     border:1rem solid #0D9DBF;
@@ -165,19 +166,25 @@ p {
 .about {
     max-width:56.25rem;
     margin-top:3rem;
+    margin-right:2rem;
     margin-bottom:2rem; 
+    margin-left:2rem;
 }
 
 /* ----------------------------------------Footer */
 footer {
-    max-width:56.25rem;
-    border-top: 0.15rem solid #0D9DBF;
+    min-width: 9.375rem;
+    max-width: 15.625rem;
+    border-top: 0.25rem solid #0D9DBF;
     text-align:center;
     margin-top: auto;
+    margin-right:2rem;
+    margin-left:2rem;
     
 }
 
 footer img {
+    width:4.5rem;
     height:3rem;
 }
 
@@ -197,8 +204,8 @@ footer a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 15.625rem;
-    max-width:37.5rem;
+    min-width: 12.5rem;
+    max-width: 22.5rem;
     min-height: 22.5rem;
     max-height:37.5rem;
     text-align: center;
@@ -215,6 +222,20 @@ footer a {
 
 .opening-hours {
     margin-top:3rem;
+    margin-right:2rem;
+    margin-bottom:2rem; 
+    margin-left:2rem;
+}
+
+.registration {
+    background-color:#73022C;
+    border:1rem solid #73022C; 
+    margin-top:3rem;
+    margin-right:2rem;
+    margin-bottom:2rem; 
+    margin-left:2rem;
+    border-radius:1.56rem;
+    color:#fff;
 }
 
 /* ----------------------------------------Schedule */
@@ -225,7 +246,7 @@ footer a {
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 12.5rem;
-    max-width: 15.625rem;
+    max-width: 22.5rem;
     min-height: 22.5rem;
     max-height:37.5rem;
     text-align: center;
@@ -238,14 +259,12 @@ footer a {
 
 .schedule-heading {
     margin-top:3rem;
+    margin-right:2rem;
+    margin-left:2rem;
 }
 
 /* ----------------------------------------Forms */
 
-.form {
-    text-align: center;
-    justify-content:center;
-}
 
 .form-control {
     margin:0.25rem;
@@ -256,16 +275,12 @@ footer a {
  
 }
 
-.register {
-    background-color:#0D9DBF;
-}
+/* ----------------------------------------Jumbotron */
 
 .jumbotron {
     margin-right:2rem;
     margin-left:2rem;
 }
-
-
 
 /* ----------------------------------------Media Queries */
 
@@ -276,12 +291,12 @@ footer a {
 }
 
 .home {
-    min-width:37.5rem;
+    min-width:22.5rem;
     max-width:56.25rem;
 }
 
 .contact {
-    min-width:37.5rem;
+    min-width:22.5rem;
     max-width:56.25rem;
 }
 
@@ -292,9 +307,13 @@ footer a {
 }
 
 .schedule {
-    min-width:37.5rem;
+    min-width:22.5rem;
     max-width:56.25rem;
 }
 
+footer {
+    min-width:22.5rem;
+    max-width:50rem;
+}
 
 }

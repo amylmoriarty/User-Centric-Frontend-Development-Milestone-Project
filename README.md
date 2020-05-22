@@ -11,16 +11,17 @@ allows the user to view upcoming class schedules and register for the classes.
  
 ## UX
 
-My goal in the design was to make information accessible on the site, while striving for a minimalist design.
+My goal was to make information accessible on the site, while striving for a user friendly but appealing design.
+That is why I adopted a mobile first approach and scaled up from there.
 
 I specifically chose to use Glidden Pink Ballet Slipper / #f4e3d4 as the main background colour as I felt it suited the theme of the brief.
-I paired this with the red and blue accent colours as I felt they compliment the pink.
+I paired this with the red and blue accent colours as I felt they compliment the dusky pink.
 
 During this project, following advice from my mentor Jonathan regarding accessibility I changed my measurements from pixels to rem. 
 This will accommomodate more users of the website and makes the overall design more accessible. 
 
 I made the decision to add a contact page and have the contact details in the footer for ease of access. 
-Hopefully this would encourage somebody to pick up the phone for a quick enquiry while also allowing them to send an email for a more detailed message or get in contact after opening hours.
+The aim of that is to encourage somebody to pick up the phone for a quick enquiry while also allowing them to send an email for a more detailed message or get in contact after opening hours.
 
 As a potential student I want information on classes for my age group.
 
@@ -75,6 +76,11 @@ I tested the navbar in dev tools on multiple browsers to ensure it displayed cor
 I validated my HTML with https://validator.w3.org/ for each page and recieved no errors.
 I validated my css with https://jigsaw.w3.org/css-validator/validator and recieved no errors.
 
+## Bugs
+
+During testing I noticed what appears to be a bug, the custom styling for the jumbotron had to be at the bottom of the hierarchy in order to be applied to all the banner elements. 
+This is why I have inserted it at the bottom of the stylesheet with a comment to identify it.
+
 ## Deployment
 
 The live site is deployed on GitHub pages. It uses the master branch. It updates each time there is a new push to the repository.
@@ -87,7 +93,7 @@ All content was written by me.
 
 ### Media
 
-Banner images were obtained from pexels.com and unsplash.com, stock image libraries.
+Banner images were obtained from stock image libraries.
 
 Home page banner  https://www.pexels.com/photo/adorable-little-girl-in-ballet-dress-sitting-on-table-3887537/
 
@@ -95,7 +101,7 @@ Contact page banner https://images.unsplash.com/photo-1525598912003-663126343e1f
 
 Schedule page banner  https://www.pexels.com/photo/black-framed-wayfarer-style-eyeglasses-on-white-surface-917293/ 
 
-
+Favicon image was obtained from https://pixabay.com/vectors/ballet-shoes-black-dance-ballerina-311217/ and resized to suit purpose.
 ### Acknowledgements
 
 The jumbotron uses a background image which leans on the hero image tutorial here: https://www.w3schools.com/howto/howto_css_hero_image.asp it was significantly edited to suit the style and layout of the site.
