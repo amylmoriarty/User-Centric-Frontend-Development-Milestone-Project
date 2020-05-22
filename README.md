@@ -84,6 +84,7 @@ This is why I have inserted it at the bottom of the stylesheet with a comment to
 ## Deployment
 
 The live site is deployed on GitHub pages. It uses the master branch. It updates each time there is a new push to the repository.
+https://amylmoriarty.github.io/User-Centric-Frontend-Development-Milestone-Project/index.html
 
 
 ## Credits
